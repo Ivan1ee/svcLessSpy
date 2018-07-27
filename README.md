@@ -1,0 +1,2 @@
+# svcLessSpy
+svc  WebShell
